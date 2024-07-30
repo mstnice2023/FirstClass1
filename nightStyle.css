@@ -1,0 +1,54 @@
+.body{
+   background-attachment:auto;
+
+}
+
+#form{
+    border: 5px solid ;
+    width: 700px;
+    margin:20vh;
+    background-color: rgb(219, 148, 148);
+    padding: 20px;
+    height: auto;
+    
+}
+
+h1{
+    text-align: center;
+    color:#792099;
+}
+
+ .button{
+    background-color: navy;
+    color: wheat;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    font-weight: bolder;
+    box-shadow: 10px;
+    cursor: pointer;
+    width: 20%;
+}
+.button :hover{
+    background-color: bisque;
+    cursor: pointer;
+
+}
+.h2{
+   text-align: center;
+}
+.two{
+    border: 5px solid #792099;
+    padding:10px;
+    margin:20px;
+    font: size 30px;
+    width:50%;
+}
+.container{
+    display: flex;
+}
+.list{
+    border: 2px solid black;
+    padding: 1px;
+}

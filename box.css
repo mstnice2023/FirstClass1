@@ -1,0 +1,97 @@
+.box{
+    border: 2px solid black;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: rgb(245, 211, 229);
+    background-image: url("logo.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  } 
+.text{
+    color: rgb(8, 8, 8);
+}
+
+
+
+
+.box_1{
+  border: 3px solid rgb(20, 20, 20);
+  background-color: rgb(253, 64, 6);
+  width: 300px;
+  height: 250px;
+  padding:20px ;
+  /* order: 3; */
+  /* transform: scale(.75); */
+  /*transform: scale(1); */
+  /* transform: scale(2); */
+}
+.box_1:hover{
+  transform: translateY(-100px )scale(.25) ;
+  
+  transition-duration: 2s; 
+
+}
+
+.box_2{
+  border: 3px solid rgb(7, 7, 7);
+  background-color: rgb(193, 196, 235);
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  /*visibility: hidden;*/
+  visibility: visible;
+ /* display: none;*/
+  transform: scale(.75);
+
+}
+
+.box_2:hover{
+
+  transform: scale(1.25); 
+  transition-duration: 2s;
+}
+
+.box_3{
+  border: 3px solid rgb(15, 15, 15);
+  background-color:rgb(44, 226, 59) ;
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+ 
+}
+.box_3:hover{
+
+  transform: rotate(360deg);
+  transition-duration: 2s;
+}
+.box_4{
+  border: 3px solid rgb(17, 17, 17);
+  background-color: rgb(203, 223, 22);
+  width: 300px;
+  height: 250px;
+  padding: 20px; 
+  transition:  width 3s ease;
+  /* transition:  width 3s ease-in-out; */
+  /* transition:  width 3s ease-out; */
+  /* transform: translate(200px)  */
+}
+.box_4:hover{
+  /* transform: translateY(-100px ) ; */
+  /* transition-duration: 2s; */
+  width: 400px;
+}
+
+
+
+.allBox{
+display: flex;
+gap: 10px;
+width: 1200px;
+background-color: rgb(41, 98, 112);
+ /* flex-wrap: wrap; */
+ /* flex-wrap: wrap-reverse; */
+ flex-wrap: nowrap;
+}

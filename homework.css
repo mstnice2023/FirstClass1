@@ -1,0 +1,200 @@
+.body{
+    padding:20px;
+margin: 10px;
+
+}
+.two{
+   display: flex;
+   border: 3px solid blueviolet;
+   padding: 20px;
+   gap: 5px;
+     
+}
+.flag{
+    border: 2px solid black;
+    margin-right: 1ppx;
+    margin-left: 10px;
+    box-shadow: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.paragraph{
+    border: 2px solid black;
+    font-size: 16px;
+    margin-right: 1ppx;
+    margin-left: 10px;
+    box-shadow: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.live{
+    display: flex;
+    border: 4px black;
+   padding: 20px;
+   gap: 5px;
+}
+.village{
+    border: 2px solid black;
+    margin-right: 1ppx;
+    margin-left: 10px;
+    box-shadow: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.village_live{
+    border: 2px solid black;
+    font-size: 16px;
+    margin-right: 1ppx;
+    margin-left: 10px;
+    box-shadow: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.city{
+    display: flex;
+    border: 4px black;
+    padding: 20px;
+    gap: 5px;
+    margin-top: 5px;
+}
+.city_live{
+    border: 2px solid black;
+    font-size: 16px;
+    margin-right: 1ppx;
+    margin-left: 10px;
+    box-shadow: 20px;
+    border-radius: 10px;
+    padding: 15px; 
+}
+.map{
+    display: flex;
+    border: 3px solid rgb(5, 5, 5);
+    padding: 20px;
+    gap: 15px;
+    margin-top:15px;
+    background-color: rgb(223, 214, 222);
+    border-radius: 20px;
+}
+.Ministers{
+    display: flex;
+   
+    gap: 55px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.table,th,td{
+   border-collapse: collapse;
+   border:1px solid black;
+    border-radius: 5px;
+   font-size: 18px;
+   width: 250px;
+   height: 50px;
+  
+}
+.table1,th,td{
+  /* border-collapse: collapse; */
+    border:1px solid black;
+      border-radius: 5px;
+     font-size: 18px;
+    
+}
+.table{
+  height: 500px;
+    width: 60%;
+    padding: 30px; 
+    display: flex;
+    gap: 20px;
+   
+}
+.allBox{
+  height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: bisque;
+    
+}
+.box_1{
+    border: 3px solid rgb(20, 20, 20);
+    background-color: rgb(253, 64, 6);
+    width: 300px;
+    height: 250px;
+    padding:20px ;
+    
+  }
+  .box_1:hover{
+    transform: translateY(-100px )scale(.25) ;
+    
+    transition-duration: 2s; 
+  
+  }
+  
+  .box_2{
+    border: 3px solid rgb(7, 7, 7);
+    background-color: rgb(193, 196, 235);
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+   
+    visibility: visible;
+  
+    transform: scale(.75);
+  
+  }
+  
+  .box_2:hover{
+  
+    transform: scale(1.25); 
+    transition-duration: 2s;
+  }
+  
+  .box_3{
+    border: 3px solid rgb(15, 15, 15);
+    background-color:rgb(44, 226, 59) ;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+   
+  }
+  .box_3:hover{
+  
+    transform: rotate(360deg);
+    transition-duration: 2s;
+  }
+  .box_4{
+    border: 3px solid rgb(17, 17, 17);
+    background-color: rgb(203, 223, 22);
+    width: 300px;
+    height: 250px;
+    padding: 20px; 
+    transition:  width 3s ease;
+    
+  }
+  .box_4:hover{
+   
+    width: 400px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

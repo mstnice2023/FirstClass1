@@ -1,0 +1,69 @@
+.body{
+    background: rgb(34,193,195);
+    background-attachment:auto;
+    margin: 5px;;
+
+}
+
+#form{
+    width: 500px;
+    margin:20vh;
+    background-color: rgb(219, 148, 148);
+    border-radius: 10px;
+    padding: 30px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    color:#792099;
+}
+
+#form button{
+    background-color: #792099;
+    color:white;
+    border: 5px solid #792099;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px;
+    font: size 15px;
+    width:40%;
+   
+}
+
+.one{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.two{
+    display:flex; 
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+}
+
+.three{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;   
+}
+
+.four{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;  
+}
+.five{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;  
+}
+.six{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;  
+}
+
